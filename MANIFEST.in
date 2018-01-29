@@ -1,12 +1,11 @@
-include docs/conf.py
-include docs/make.bat
-include docs/Makefile
+graft docs
+
 include LICENSE
 include README.rst
 include CONTRIBUTING.rst
+include CHANGELOG.rst
 
 include tox.ini .travis.yml
 
-recursive-include docs *.rst
 recursive-include examples *.py
 recursive-include test *.py *.csv

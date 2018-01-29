@@ -79,6 +79,6 @@ your API requests so that they contain the necessary authentication metadata.
 .. _official api: https://iota.readme.io/
 .. _pyota-ccurl extension: https://pypi.python.org/pypi/PyOTA-CCurl
 .. _run your own node.: http://iotasupport.com/headlessnode.shtml
-.. _slack: http://slack.iota.org/
+.. _discord: https://discordapp.com/channels/397872799483428865/400435228923133959/
 .. _use a light wallet node.: http://iotasupport.com/lightwallet.shtml
 .. _use the sandbox node.: http://dev.iota.org/sandbox

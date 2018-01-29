@@ -1,8 +1,29 @@
-.. image:: https://travis-ci.org/iotaledger/iota.lib.py.svg?branch=master
-   :target: https://travis-ci.org/iotaledger/iota.lib.py
+========
+Overview
+========
 
-.. image:: https://readthedocs.org/projects/pyota/badge/?version=latest
-   :target: http://pyota.readthedocs.io/en/latest/?badge=latest
+.. start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - docs
+      - |docs|
+    * - tests
+      - | |travis|
+
+
+.. |docs| image:: https://readthedocs.org/projects/pyota/badge/?version=latest
+    :target: http://pyota.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. |travis| image:: https://travis-ci.org/iotaledger/iota.lib.py.svg?branch=master
+    :alt: Travis-CI Build Status
+    :target: https://travis-ci.org/iotaledger/iota.lib.py
+
+
+.. end-badges
+
 
 =====
 PyOTA
@@ -16,7 +37,7 @@ Join the Discussion
 ===================
 If you want to get involved in the community, need help with getting setup,
 have any issues related with the library or just want to discuss Blockchain,
-Distributed Ledgers and IoT with other people, feel free to join our `Slack`_.
+Distributed Ledgers and IoT with other people, feel free to join our `discord`_.
 
 You can also ask questions on our `dedicated forum`_.
 
@@ -70,7 +91,7 @@ Documentation
 =============
 PyOTA's documentation is available on `ReadTheDocs`_.
 
-If you are :ref:`installing from source <readme-installing-from-source>`, you
+If you are `installing from source <readme-installing-from-source>`, you
 can also build the documentation locally:
 
 #. Install extra dependencies (you only have to do this once)::
@@ -95,7 +116,7 @@ can also build the documentation locally:
 .. _Create virtualenv: https://realpython.com/blog/python/python-virtual-environments-a-primer/
 .. _PyOTA Bug Tracker: https://github.com/iotaledger/iota.lib.py/issues
 .. _ReadTheDocs: https://pyota.readthedocs.io/
-.. _Slack: https://slack.iota.org/
+.. _discord: https://discordapp.com/channels/397872799483428865/400435228923133959
 .. _dedicated forum: https://forum.iota.org/
 .. _official API: https://iota.readme.io/
 .. _tox: https://tox.readthedocs.io/

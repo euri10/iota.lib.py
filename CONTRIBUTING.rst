@@ -18,7 +18,7 @@ There are lots of ways to get involved with PyOTA.  Many of them don't require w
 - Improving Documentation
 - Writing Tutorials
 - Reporting Bugs
-- Helping Users on the ``#iota-libs-pyota`` Channel on `Slack`_
+- Helping Users on the ``#iota-libs-pyota`` Channel on `discord`_
 - Fixing Bugs and Implementing New Features
 - Writing Unit and Functional Tests
 
@@ -26,9 +26,9 @@ A Few Things that We Can't Accept
 ---------------------------------
 We're pretty open about how people contribute to PyOTA, but there are a few things that we can't accept:
 
-- Please do not post support requests here.  Use the ``#iota-libs-pyota`` channel on `Slack`_ or post in the `forum`_ to ask for help.
+- Please do not post support requests here.  Use the ``#iota-libs-pyota`` channel on `discord`_ or post in the `forum`_ to ask for help.
 - Please do not propose new API methods here.  There are multiple IOTA API libraries out there, and they must all have the same functionality.
-    - That said, if you have an idea for a new API method, please share it on the ``#developers`` channel in `Slack`_ so that IOTA Foundation members can evaluate it!
+    - That said, if you have an idea for a new API method, please share it on the ``#developers`` channel in `discord`_ so that IOTA Foundation members can evaluate it!
 
 
 Need Some Inspiration?
@@ -37,7 +37,7 @@ If you would like to help out but don't know how to get started, here are some
 places you can look for inspiration:
 
 - Look for issues marked `help wanted`_ in the `PyOTA Bug Tracker`_
-- Introduce yourself in the `#iota-libs-pyota` channel in `Slack`_ and watch for questions or issues that you can help with.
+- Introduce yourself in the `#iota-libs-pyota` channel in `discord`_ and watch for questions or issues that you can help with.
 - Browse existing `tutorials`_ for other programming languages and create Python versions.
 
 Is This Your First Contribution?
@@ -55,10 +55,10 @@ Instructions
 ------------
 1. Make sure it really is a PyOTA bug.
     - Check the traceback, and see if you can narrow down the cause of the bug.
-    - If the error is not directly caused by PyOTA, or if you are unable to figure out what is causing the problem, we're still here for for you!  Post in the ``#iota-libs-pyota`` channel in `Slack`_ for assistance.
+    - If the error is not directly caused by PyOTA, or if you are unable to figure out what is causing the problem, we're still here for for you!  Post in the ``#iota-libs-pyota`` channel in `discord`_ for assistance.
 2. Is it safe to publish details about this bug publicly?
     - If the bug is security-related (e.g., could compromise a user's seed if exploited), or if it requires sensitive information in order to reproduce (e.g., the private key for an address), please do not post in in the PyOTA Bug Tracker!
-    - To report security-related bugs, please contact ``@phx`` directly in `Slack`_.
+    - To report security-related bugs, please contact ``@phx`` directly in `discord`_.
 3. Is this a known issue?
     - Before posting a bug report, check the `PyOTA Bug Tracker`_ to see if there is an existing issue for this bug.
 4. Create a new issue in the `PyOTA Bug Tracker`_.
@@ -105,7 +105,7 @@ PyOTA is a critical component for many applications, and as such its code must b
 
 This is a big list, but don't let it intimidate you!  Many of these are "common sense" things that you probably do already, but we have to list them here anyway, just so that there's no confusion.
 
-If you have any questions, please feel free to post in the ``#iota-libs-pyota`` channel in `Slack`_!
+If you have any questions, please feel free to post in the ``#iota-libs-pyota`` channel in `discord`_!
 
 - Please create Pull Requests against the ``develop`` branch.
 - Please limit each Pull Request to a single bugfix/enhancement.
@@ -136,5 +136,5 @@ When you submit a Pull Request, here is what you can expect from the individual 
 .. _notifications: https://github.com/notifications
 .. _pep-8: https://www.python.org/dev/peps/pep-0008/
 .. _pyota bug tracker: https://github.com/iotaledger/iota.lib.py/issues
-.. _slack: https://slack.iota.org
+.. _discord: https://discordapp.com/channels/397872799483428865/400435228923133959
 .. _tutorials: https://learn.iota.org/tutorials

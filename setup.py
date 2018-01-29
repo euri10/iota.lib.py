@@ -4,9 +4,11 @@
 # some values are expected to be byte strings.
 from __future__ import absolute_import, division, print_function
 
-from codecs import open
+import io
 
+import re
 import setuptools
+from os.path import join, dirname
 from setuptools import find_packages, setup
 
 ##
@@ -20,10 +22,13 @@ if LooseVersion(setuptools.__version__) < LooseVersion('20.5'):
 
     sys.exit('Installation failed: Upgrade setuptools to version 20.5 or later')
 
-##
-# Load long description for PyPi.
-with open('README.rst', 'r', 'utf-8') as f:  # type: StreamReader
-    long_description = f.read()
+
+def read(*names, **kwargs):
+    return io.open(
+        join(dirname(__file__), *names),
+        encoding=kwargs.get('encoding', 'utf8')
+    ).read()
+
 
 ##
 # Off we go!
@@ -34,7 +39,10 @@ setup(
     url='https://github.com/iotaledger/iota.lib.py',
     version='2.0.3',
 
-    long_description=long_description,
+    long_description='%s\n%s' % (
+        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
+        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
+    ),
 
     packages=find_packages('.', exclude=(
         'examples', 'examples.*',
